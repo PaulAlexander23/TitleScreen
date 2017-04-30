@@ -1,0 +1,16 @@
+﻿Build started 19/06/2016 13:42:51.
+     1>Project "F:\Documents\Visual Studios!! WOoo\TitleScreen\TitleScreen\TitleScreen.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Documents\Visual Studios!! WOoo\TitleScreen\Debug\TitleScreen.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\Documents\Visual Studios!! WOoo\SDL2\SDL2_ttf-2.0.12\lib\x86" /LIBPATH:"F:\Documents\Visual Studios!! WOoo\SDL2\SDL2-2.0.3\lib\x86" /LIBPATH:"F:\Documents\Visual Studios!! WOoo\SDL2\SDL2_image-2.0.0\lib\x86" /LIBPATH:"F:\Documents\Visual Studios!! WOoo\SDL2\SDL2_mixer-2.0.0\lib\x86" SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Documents\Visual Studios!! WOoo\TitleScreen\Debug\TitleScreen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Documents\Visual Studios!! WOoo\TitleScreen\Debug\TitleScreen.lib" /MACHINE:X86 Debug\Background.obj
+         Debug\Btn.obj
+         Debug\Intro.obj
+         Debug\Mouse.obj
+         Debug\SDL_Class.obj
+         Debug\Text.obj
+         Debug\TitleScreen.obj
+         TitleScreen.vcxproj -> F:\Documents\Visual Studios!! WOoo\TitleScreen\Debug\TitleScreen.exe
+     1>Done Building Project "F:\Documents\Visual Studios!! WOoo\TitleScreen\TitleScreen\TitleScreen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26
