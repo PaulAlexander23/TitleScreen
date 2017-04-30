@@ -47,7 +47,7 @@ void CIntro::intro()
 		quitBtn->Draw();
 
 		oSDL->End();
-		_sleep(10);
+		SDL_Delay(10);
 	}
 }
 
@@ -69,7 +69,7 @@ void CIntro::EventHandler()
 			if (startBtn->pressed == false && startBtn->InButton(omouse->GetX(), omouse->GetY()))
 			{
 				startBtn->pressed = true;
-				std::cout << "Start" << std::endl;
+				std::cout << "New" << std::endl;
 			}
 			if (loadBtn->pressed == false && loadBtn->InButton(omouse->GetX(), omouse->GetY()))
 			{

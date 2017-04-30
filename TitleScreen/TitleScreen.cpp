@@ -2,11 +2,8 @@
 //
 //Aim: To set up a working title screen, optimise the classes and add text via sdl
 
-
-
 #include "stdafx.h"
-#include"Intro.h";
-
+#include"Intro.h"
 
 
 int main(int argc, char *argv[])

@@ -10,7 +10,7 @@ CText::CText(SDL_Renderer* passed_renderer, int x, int y, std::string passed_tex
 	gfont = pfont;
 
 	textSurface = NULL;
-	textSurface = TTF_RenderText_Solid(gfont, text.c_str(), { 255, 255, 255 });
+	textSurface = TTF_RenderText_Solid(gfont, text.c_str(), {255, 255, 255});
 
 	renderedText = NULL;
 	renderedText = SDL_CreateTextureFromSurface(renderer, textSurface);
